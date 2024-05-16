@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change this as you see fit</title><!--pakipaltan nung nasa loob ng title eto yung parang text sa website sa taas-->
+</head>
+<body>
+    <header>
+        <h2 class="logo">Name</h2><!--pakipaltan ng name or whatever--><!--may mga image diyan pede paltan or tagtagin-->
+        <nav class="navigation">
+            <a href="">Home</a>
+            <a href="">More</a>
+            <a href="">About Us</a>
+        </nav>
+    </header>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: black;
+            font-family: cursive;/*paltan if gusto magiba font ng lahat ng word*/
+            box-sizing: border-box;
+        }
+        header{
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 1.5% 6%;
+            background-color: rgba(86, 212, 191, 0.452);/*paltan ang kulay kung ayaw ng kulay ng header*/
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h2{
+            font-size: 2.7rem;/*paltan ang number kung medyo maliit or malaki masyado yung font*/
+            user-select: none;
+        }
+        header a{
+            font-size: 2.7rem;
+            text-decoration: none;
+        }
+        .navigation a{
+            font-weight: 500;/*paltan are kung tingin mo is makapal or manipis yung pagkakapal ng letter*/
+            margin-left: 50px;
+        }
+        header a:hover{
+            color: rgb(255, 255, 255);
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            min-height: 100vh;
+            /*background-color: rgb(194, 165, 38);*/     /*tagtagin mo yun[/* * /] kung gusto ay kulay ang background*/
+        }
+
+        section{
+            width: 100%;
+            padding: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+        }
+        img{
+            height: 350px;
+            width: 550px;
+        }
+        .base{
+            display: flex;
+            flex-direction: row;
+            margin-top: 5%;
+        }
+        .base h1{
+            margin-top: -5%;
+            margin-left: 5%;
+        }
+        p {
+            text-indent: 2em;
+        }
+        .ptr{
+            margin-top: 15%;
+        }
+        .ptr p{
+            width: 70%;
+        }
+    </style>
+<div class="bg"></div>
+    <section class="base">
+        <img src="img1.png" alt="" srcset="">
+        <h1>Informatics Applications in Nursing Practice: A Deeper Dive
+            <br><br>Informatics has revolutionized nursing practice, transforming workflows, 
+            enhancing patient care, and empowering nurses to deliver evidence-based care more 
+            efficiently.
+        </h1>
+    </section>
+
+    <section class="ptr">
+        <h1>Here's a closer look at the key informatics applications and their impact: <br><br></h1>
+        <h2>1. Nursing Documentation and Charting: A Foundation for Quality Care <br><br></h2>
+        <p>Electronic Health Records (EHRs): EHRs are the cornerstone of modern nursing documentation. 
+            They provide a single, centralized platform for recording patient assessments, medications, interventions, 
+            and progress notes. This ensures:
+        <br><br>
+        a. Accuracy: Electronic documentation reduces errors associated with handwritten charts, improving data integrity. <br>
+        b.  Improved Communication: Real-time access to patient information fosters seamless communication between nurses, 
+        physicians, and other healthcare providers. <br>
+        c. Enhanced Care Coordination: EHRs facilitate care coordination across different departments and healthcare settings, 
+        promoting a more holistic approach. <br> <br>
+        </p>
+        <img src="img2.png" alt="" srcset="">
+
+        <p><br><br> Clinical Decision Support Systems (CDSS):  CDSS acts as a virtual assistant for nurses. They integrate with EHRs to 
+            provide evidence-based recommendations, drug interaction alerts, and reminders for preventive care measures. This leads 
+            to: <br> <br>
+            a. Improved Decision-Making: CDSS helps nurses make informed decisions based on the latest clinical guidelines 
+            and research findings. <br>
+            b. Reduced Errors: Alerts for potential medication errors or missed interventions contribute to safer patient care. <br>
+            c. Standardized Care: CDSS promotes consistent care delivery by highlighting best practices and protocols. <br><br>
+        </p>
+        <img src="img3.png" alt="">
+        <p><br><br> Standardized Terminologies:  Standardized languages like NANDA-I (nursing diagnoses), 
+            NIC (nursing interventions), and NOC (nursing outcomes) ensure clear and consistent documentation. 
+            This facilitates:
+        <br><br>
+        a. Improved Communication: Standardized terms eliminate ambiguity and ensure everyone interprets nursing 
+        documentation accurately. <br>
+        b. Data Analysis: Standardized terminologies enable data aggregation and analysis, allowing healthcare 
+        institutions to identify trends and improve care delivery. <br>
+        c. Benchmarking: Standardized data allows for comparison with other institutions, helping to identify areas 
+        for improvement. <br><br>
+        </p>
+    </section>
+
+    <section class="ptr">
+        <h2>2. Medication Administration and Barcode Scanning: A Commitment to Patient Safety <br><br></h2>
+        <p>Barcode Medication Administration (BCMA): This technology uses barcodes on medications and patient wristbands to verify 
+            the "Five Rights" of medication administration: right patient, right medication, right dose, right route, and right 
+            time. BCMA significantly reduces the risk of medication errors, a leading cause of patient harm. <br><br></p>
+        <img src="img4.png" alt="" srcset="">
+        <p><br><br>Automated Dispensing Cabinets (ADCs):  These secure cabinets store and dispense medications electronically. 
+            Integrated with EHRs, ADCs offer several advantages: <br> <br></p>
+            <p>a. Reduced Medication Errors: ADCs prevent dispensing errors by verifying prescriptions and user access. <br>
+                b. Improved Inventory Management: Real-time tracking of medication stock helps prevent shortages and ensure availability. <br>
+                c. Streamlined Workflow: ADCs automate medication dispensing, freeing up nurses' time for direct patient care. <br><br></p>
+        <img src="img5.png" alt="" srcset="">
+        <p><br><br>E-Prescribing Systems:   Electronic prescribing eliminates the risks associated with handwritten prescriptions, such as 
+            illegibility or misinterpretation. E-prescribing offers:</p>
+            <p><br>a. Improved Accuracy: Electronic prescriptions ensure clear and accurate communication between 
+                providers and pharmacies. <br>
+                b. Reduced Fraud: E-prescribing reduces the risk of tampering with prescriptions. <br>
+                c. Enhanced Efficiency: E-prescribing streamlines the prescription process, saving time and resources. <br><br></p>
+                <img src="img6.png" alt="" srcset="">
+    </section>
+    <section class="ptr">
+        <h2>3. Nursing Workflow Optimization: Delivering Care with Efficiency <br><br></h2>
+        <p>
+            Clinical Workflow Management Systems:  These software programs optimize nursing workflows by managing tasks, 
+            allocating resources, and automating routine processes. This results in: <br>
+        </p>
+        <p>
+            <br>a. Increased Efficiency: Nurses can complete tasks faster and more efficiently, allowing them to spend 
+            more time with patients. <br>
+            b. Reduced Workload: Workflow automation reduces unnecessary administrative burdens on nurses. <br>
+            c. Improved Patient Care: Increased efficiency translates to more time for patient assessment, education, and support.
+        </p>
+        <img src="img7.png" alt="" srcset="">
+        <p><br><br> Mobile Health (mHealth) Applications:  Mobile apps empower nurses with on-the-go access to:</p>
+        <p><br>a. Patient Data: Nurses can quickly view patient information, vital signs, and medication history at the bedside. <br>
+            b. Communication Tools: Secure messaging apps facilitate real-time communication with colleagues 
+            and other healthcare providers. <br>
+            c. Task Management Tools: Nurses can manage their to-do lists, track tasks, and receive alerts for urgent matters.</p>
+            <img src="img8.png" alt="" srcset="">
+            <p><br> <br>Telehealth and Remote Monitoring: Telehealth technologies like video conferencing and remote patient monitoring devices enable:
+            </p>
+            <p><br><br>a. Virtual Consultations: Nurses can conduct virtual consultations with patients, 
+                improving access to care in remote areas. <br>
+                b. Continuous Monitoring: Remote monitoring of vital signs allows for early detection of potential 
+                complications and proactive interventions. <br>
+                c. Reduced Hospital Readmissions: Telehealth interventions can help manage chronic conditions and 
+                prevent unnecessary hospital readmissions. <br></p>
+            <img src="img9.png" alt="" srcset="">
+    </section>
+    <section class="ptr">
+        <h2>4. Patient Education and Engagement through Technology: Empowering Individuals <br> <br></h2>
+        <p>Patient Portals: These secure online portals provide patients <br> <br></p>
+        <img src="img10.png" alt="" srcset="">
+    </section>
+</body>
+</html>
